@@ -1,0 +1,312 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "9b4344d48adbbaffbd0a4a15b54333fa",
+    "packages": [
+        {
+            "name": "altorouter/altorouter",
+            "version": "v1.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/dannyvankooten/AltoRouter.git",
+                "reference": "39c50092470128c12284d332bb57f306bb5b58e4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/dannyvankooten/AltoRouter/zipball/39c50092470128c12284d332bb57f306bb5b58e4",
+                "reference": "39c50092470128c12284d332bb57f306bb5b58e4",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "codeclimate/php-test-reporter": "dev-master",
+                "phpunit/phpunit": "4.5.*"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "AltoRouter.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Danny van Kooten",
+                    "email": "dannyvankooten@gmail.com",
+                    "homepage": "http://dannyvankooten.com/"
+                },
+                {
+                    "name": "Koen Punt",
+                    "homepage": "https://github.com/koenpunt"
+                },
+                {
+                    "name": "niahoo",
+                    "homepage": "https://github.com/niahoo"
+                }
+            ],
+            "description": "A lightning fast router for PHP",
+            "homepage": "https://github.com/dannyvankooten/AltoRouter",
+            "keywords": [
+                "lightweight",
+                "router",
+                "routing"
+            ],
+            "support": {
+                "issues": "https://github.com/dannyvankooten/AltoRouter/issues",
+                "source": "https://github.com/dannyvankooten/AltoRouter/tree/master"
+            },
+            "time": "2015-11-30T00:47:43+00:00"
+        },
+        {
+            "name": "emarref/jwt",
+            "version": "1.0.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/emarref/jwt.git",
+                "reference": "79f563750ff90dabd4fa677c4b4e5ec9ed52d9b4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/emarref/jwt/zipball/79f563750ff90dabd4fa677c4b4e5ec9ed52d9b4",
+                "reference": "79f563750ff90dabd4fa677c4b4e5ec9ed52d9b4",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "*"
+            },
+            "suggest": {
+                "ext-openssl": "Enables more token encryption options"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Emarref\\Jwt\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Malcolm Fell",
+                    "email": "emarref@gmail.com"
+                }
+            ],
+            "description": "A JWT implementation",
+            "support": {
+                "issues": "https://github.com/emarref/jwt/issues",
+                "source": "https://github.com/emarref/jwt/tree/master"
+            },
+            "time": "2016-09-05T20:33:06+00:00"
+        },
+        {
+            "name": "euroglas/authuser",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ogalindoch/authuser.git",
+                "reference": "fa02f7ddf2bc00f64f9883ccb02c5078a3ec762b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ogalindoch/authuser/zipball/fa02f7ddf2bc00f64f9883ccb02c5078a3ec762b",
+                "reference": "fa02f7ddf2bc00f64f9883ccb02c5078a3ec762b",
+                "shasum": ""
+            },
+            "require": {
+                "emarref/jwt": "^1.0.3",
+                "euroglas/dbaccess": "@dev"
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "euroglas\\authuser\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "agpl-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Octavio Galindo",
+                    "email": "Octavio@sesodi.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Modulo de autenticación usando nombre de usuario y contraseña",
+            "homepage": "http://sesodi.com",
+            "keywords": [
+                "auth",
+                "rest",
+                "sesodi"
+            ],
+            "support": {
+                "issues": "https://github.com/ogalindoch/authuser/issues",
+                "source": "https://github.com/ogalindoch/authuser/tree/main"
+            },
+            "time": "2020-12-14T18:34:37+00:00"
+        },
+        {
+            "name": "euroglas/dbaccess",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ogalindoch/dbaccess.git",
+                "reference": "89574324de8f348ca6dc532805316eefe00b3b2f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ogalindoch/dbaccess/zipball/89574324de8f348ca6dc532805316eefe00b3b2f",
+                "reference": "89574324de8f348ca6dc532805316eefe00b3b2f",
+                "shasum": ""
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "euroglas\\dbaccess\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "agpl-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Octavio Galindo",
+                    "email": "Octavio@euroglas.net",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Acceso a la Base de Datos, para EUROGLAS",
+            "homepage": "http://euroglas.net",
+            "keywords": [
+                "db",
+                "euroglas"
+            ],
+            "support": {
+                "issues": "https://github.com/ogalindoch/dbaccess/issues",
+                "source": "https://github.com/ogalindoch/dbaccess/tree/main"
+            },
+            "time": "2020-12-08T18:45:31+00:00"
+        },
+        {
+            "name": "euroglas/entrasale",
+            "version": "dev-main",
+            "dist": {
+                "type": "path",
+                "url": "../entrasale",
+                "reference": "cd70b929872da98c95371d35713bd4aad544c7e5"
+            },
+            "require": {
+                "euroglas/dbaccess": "@dev",
+                "euroglas/eurorest": "@dev"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "euroglas\\entrasale\\": "src/"
+                }
+            },
+            "license": [
+                "agpl-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Octavio Galindo",
+                    "email": "Octavio@euroglas.net",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Modulo de entradas y salidas, para EUROGLAS",
+            "homepage": "http://euroglas.net",
+            "keywords": [
+                "entradas",
+                "envios",
+                "euroglas",
+                "rest",
+                "salidas"
+            ],
+            "transport-options": {
+                "symlink": true,
+                "relative": true
+            }
+        },
+        {
+            "name": "euroglas/eurorest",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ogalindoch/eurorest.git",
+                "reference": "6925b681a0e572dfcd37b8e632af6eb65f377d15"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ogalindoch/eurorest/zipball/6925b681a0e572dfcd37b8e632af6eb65f377d15",
+                "reference": "6925b681a0e572dfcd37b8e632af6eb65f377d15",
+                "shasum": ""
+            },
+            "require": {
+                "altorouter/altorouter": "^1.1.0",
+                "emarref/jwt": "^1.0.3"
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "euroglas\\eurorest\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Octavio Galindo",
+                    "email": "Octavio@euroglas.net",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Servidor REST para EUROGLAS",
+            "homepage": "http://euroglas.net",
+            "keywords": [
+                "euroglas",
+                "rest",
+                "server"
+            ],
+            "support": {
+                "issues": "https://github.com/ogalindoch/eurorest/issues",
+                "source": "https://github.com/ogalindoch/eurorest/tree/main"
+            },
+            "time": "2020-12-18T00:43:17+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "euroglas/eurorest": 20,
+        "euroglas/authuser": 20,
+        "euroglas/entrasale": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.0.0"
+}

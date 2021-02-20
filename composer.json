@@ -1,0 +1,30 @@
+{
+	"name"	: "euroglas/euro-api",
+	"type"	: "project",
+	"description"	: "Servidor REST para Pedidos y Facturas de EUROGLAS",
+	"keywords"	: ["server","rest","euroglas"],
+	"homepage":	"http://euroglas.net",
+	"license":	"MIT",
+	"authors": [
+		{
+			"name": "Octavio Galindo",
+			"email": "Octavio@euroglas.net",
+			"role": "Developer"
+		}
+	],
+	"minimum-stability" : "dev",
+	"require": {
+		"euroglas/eurorest": "@dev",
+		"euroglas/authuser": "@dev",
+		"euroglas/entrasale": "@dev"
+	},
+	"repositories" :[
+		{
+			"type":"path",
+			"url":"../entrasale",
+			"options": {
+				"symlink": true
+			}
+		}
+	]
+}
